@@ -1,0 +1,37 @@
+import java.util.*;
+
+{public class Geldanlage
+
+{public static void main (String[] args)
+
+{Scanner Keyb= new Scanner (System.in);
+double anlage, zinssatz, startanlage, gewinn; //Deklaration Variablen
+System.out.print("“Bitte Anlagesumme eingeben: "); anlage=Keyb.nextDouble();
+
+startanlage=anlage;
+System.out.print("Bitte Zinssatz eingeben: "); zinssatz=Keyb.nextDouble();
+
+System.out.print1n(); //Lehrzeile
+
+anlage=anlage*(zinssatz/100)+anlage; //Berechnung des Kapitals mit Zinssatz
+System.out.print1ln("Nach dem 1. Jahr: “ +anlage+ “ Euro”);
+anlage=anlage*(zinssatz/100)+anlage; //Berechnung des Kapitals mit Zinsenszins
+System.out.print1ln("Nach dem 2. Jahr: “ t+tanlage+ “ Euro”);
+anlage=anlage*(zinssatz/100)+anlage;
+
+System.out.print1ln("Nach dem 3. Jahr: “ t+tanlage+ “ Euro");
+anlage=anlage*(zinssatz/100)+anlage;
+
+System.out.printin("Nach dem 4. Jahr: " +anlage+ " Euro”);
+anlage=anlage*(zinssatz/100)+anlage;
+
+System.out.print1ln("Nach dem 5. Jahr: “ +tanlage+ “ Euro”);
+
+System.out.printin(); //Lehrzeile
+
+gewinn=((anlage/startanlage) -1)*100; //Gewinnberechnung
+
+System.out.print1ln("Der Gewinn betraegt:
+} //main
+
++gewinn+ " %");
